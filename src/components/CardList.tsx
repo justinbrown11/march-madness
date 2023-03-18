@@ -12,7 +12,7 @@ const CardList = () => {
             {teams.teams.map(t => (
                 <Col>
                     <Link to={`/card/${t.school}/${t.name}/${t.city}/${t.state}`} style={{ textDecoration: 'none', textDecorationColor: 'white' }}>
-                        <Card bg='dark' border='info' className='App'>
+                        <Card bg='dark' border='info' className='App' text='white'>
                             <Card.Body>
                                 <Card.Title>{t.school}</Card.Title>
                             </Card.Body>
