@@ -15,6 +15,7 @@ const CardList = () => {
                         <Card bg='dark' border='info' className='App' text='white'>
                             <Card.Body>
                                 <Card.Title>{t.school}</Card.Title>
+                                <Card.Subtitle>Click me</Card.Subtitle>
                             </Card.Body>
                         </Card><br/>
                     </Link>
